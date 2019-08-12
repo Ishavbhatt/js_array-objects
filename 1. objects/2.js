@@ -1,10 +1,18 @@
 // Using the different way of accessing and assigning a value to the object using `.` or `[]`
-
+var person = {
+			  firstName: "John",
+			  lastName: "Doe"
+			};
+person.living = "dhsramshala";
+person.[permanent addresh] = "delhi";
 // 1. Define a variable named `user` and assign a blank object to it.
+var user = {}
 
 // 2. Add a key of `user name` and a value of `Black Panther` to that object.
+user.username = "Black Panther";
 
 // 3. Using `console.log` log the value of `user name` key from the user object.
+console.log(user.username);
 
 // 4. Add a key of the value of variable `batch` in the object with the value of 10.
 var batch = "myBatch";
