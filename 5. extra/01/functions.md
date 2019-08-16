@@ -1,4 +1,4 @@
-Write the solution in the `main.js`
+  <S></S>Write the solution in the `main.js`
 
 ### Animal User
 
@@ -9,10 +9,7 @@ Write the solution in the `main.js`
   console.log(testSheep); //{ username: 'CottonBall' }
   ```
 
-1. In your `AnimalTestUser` function, create a check that sees how many arguments are passed. If there is more than one argument, create a property, `otherArgs` that is an array of the remaining arguments. Note: the `arguments` keyword is not a true array. Remember, it is an array-like object.
-
-  ```javascript
-  var testSheep = AnimalTestUser('CottonBall', {'loves dancing': true}, [1,2,3] );
+1. var testSheep = AnimalTestUser('CottonBall', {'loves dancing': true}, [1,2,3] );
   console.log(testSheep); //{ username: 'CottonBall', otherArgs: [ {'loves dancing': true}, [1,2,3] ] }
   ```
 

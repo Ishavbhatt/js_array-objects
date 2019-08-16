@@ -3,23 +3,24 @@ var myPenguin = {
 				  origin : "Death and the Penguin, Penguin Lost",
 				  author : "Andrey Kurkov"
 			};
-myPenguin.favoriteFoods = ["peanuts", "grapes", "mango"];
-console.log(myPenguin.favoriteFoods[1]);
+1. myPenguin.favoriteFoods = ["peanuts", "grapes", "mango"];
+ 
+2. console.log(myPenguin.favoriteFoods[1]);
 
-var firstFavFood = myPenguin.favoriteFoods[0];
-console.log(firstFavFood);
+3. var firstFavFood = myPenguin.favoriteFoods[0];
+   console.log(firstFavFood);
 
-myPenguin.favoriteFoods.push("apple");
+4. myPenguin.favoriteFoods.push("apple");
 
-console.log(myPenguin.favoriteFoods.length);
+5. console.log(myPenguin.favoriteFoods.length);
 
-myPenguin.favoriteFoods.splice(3, "pineapples")
-console.log(myPenguin.favoriteFoods[3]);
+6. myPenguin.favoriteFoods[4] = "pineapples";
+   console.log(myPenguin.favoriteFoods[3]);
 
-var lastFavFood = myPenguin.favoriteFoods[myPenguin.favoriteFoods.length -1]
+7. var lastFavFood = myPenguin.favoriteFoods[myPenguin.favoriteFoods.length -1]
 
-console.log(lastFavFood)
+   console.log(lastFavFood);
 
-for(let i = 0; i < myPenguin.favoriteFoods.length; i++){
-  console.log(myPenguin.favoriteFoods[i])
-}
+8. for(var i = 0; i < myPenguin.favoriteFoods.length; i++){
+   console.log(myPenguin.favoriteFoods[i])
+   }
