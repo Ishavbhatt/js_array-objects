@@ -4,7 +4,7 @@ var person = {
 			  lastName: "Doe"
 			};
 person.living = "dhsramshala";
-person["permanent addresh"] = "delhi";
+person[12] = "height";
 // 1. Define a variable named `user` and assign a blank object to it.
 var user = {}
 
@@ -12,20 +12,27 @@ var user = {}
 user["user name"] = "Black Panther";
 
 // 3. Using `console.log` log the value of `user name` key from the user object.
-console.log(user);
+console.log(user["user name"]);
 
 // 4. Add a key of the value of variable `batch` in the object with the value of 10.
-var batch = "myBatch";
-
+var myBatch = {
+	batch: 10,
+}
+user.myBatch=10
 // 5. Using the alert function alert the value of the key added above.
+alert(user.myBatch)
 
 // 6. Add a key of `42` to the object with a value of `The answer to the meaning of life 🧸`.
+user[42] = "The answer to the meaning of life 🧸.";
 
 // 7. Using the function console.log log the value of the key `42`.
+console.log(user[42]);
 
 // 8. Add a key in your object with the value of the variable `city`. The value of the key should be `true`.
-var city = prompt("Enter the city name you visited last time.");
+user.city = "true";
 
 // 9. Uisng console.log log the value of the key defined above.
+console.log(user.city);
 
-// 10. Can you define a key of `let or var` in any object? Reason.
+// 10.Can you define a key of `let or var` in any object? Reason.
+ var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped. 
